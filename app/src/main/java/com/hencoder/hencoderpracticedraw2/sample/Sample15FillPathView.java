@@ -37,6 +37,7 @@ public class Sample15FillPathView extends View {
         path.rLineTo(150, 80);
 
         pathPaint.setStyle(Paint.Style.STROKE);
+        setLayerType(View.LAYER_TYPE_SOFTWARE, null);
     }
 
     @Override
